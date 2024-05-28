@@ -1,0 +1,88 @@
+body {
+    font-family: 'Oxanium', sans-serif;
+    padding: 20px; 
+    background: linear-gradient(180deg, #1C121F 21%, #1C121F 100%);
+}
+.card {
+    background-color: #302034;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px; 
+    background-color: #E91E63; 
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    color: #FFCE4E;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #fff; 
+}
+
+.card p b {
+    color: #BDAAC1; 
+}
+
+div {
+    margin-left: 10px;
+}
+
+input[type="number"] {
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #FFCE4E;
+    font-size: 1em;
+    margin-top: 20px;  
+}
+
+input[type="number"]:focus {
+    outline: none;
+    background: rgba(255, 193, 7, 0.2); 
+}
+
+input,
+button {
+    margin: 20px 10px 20px 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: #FFC107; 
+    color: black; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 0; 
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 0px; 
+    font-family: 'Oxanium', sans-serif; 
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ffca28; 
+}
+
+li {
+    list-style-type: none;   
+}
+
+h2::first-letter {
+    text-transform: uppercase;
+}
